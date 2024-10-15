@@ -26,9 +26,9 @@ This exercise asks you to build an experience to navigate continents and their c
 
 In this section we are going to be setting up the root route to display the `<App />`
 
-- [ ] In the `client/` folder, add a new file called `router.tsx`
-- [ ] Import `createBrowserRouter, createRoutesFromElements, Route` from `react-router-dom`
-- [ ] Now it's time to display the `<App />` component on the client-side root route `'/'` by using `createBrowserRouter, createRoutesFromElements, Route` (refer to the [docs](https://reactrouter.com/en/main/start/tutorial#jsx-routes) to learn more about Nested Routes)
+- [x] In the `client/` folder, add a new file called `router.tsx`
+- [x] Import `createBrowserRouter, createRoutesFromElements, Route` from `react-router-dom`
+- [x] Now it's time to display the `<App />` component on the client-side root route `'/'` by using `createBrowserRouter, createRoutesFromElements, Route` (refer to the [docs](https://reactrouter.com/en/main/start/tutorial#jsx-routes) to learn more about Nested Routes)
 
   <details>
     <summary>Tip</summary>
@@ -47,9 +47,9 @@ In this section we are going to be setting up the root route to display the `<Ap
 
   </details>
 
-- [ ] Export the `router` so that we can import it in `client/index.tsx`
-- [ ] Import the router from `client/router.tsx` into `client/index.tsx`.
-- [ ] In `client/index.tsx` , find the `render()` call and replace `<App />` with `<RouterProvider router={router} />`.
+- [x] Export the `router` so that we can import it in `client/index.tsx`
+- [x] Import the router from `client/router.tsx` into `client/index.tsx`.
+- [x] In `client/index.tsx` , find the `render()` call and replace `<App />` with `<RouterProvider router={router} />`.
 
 ### 2. Building a Home
 

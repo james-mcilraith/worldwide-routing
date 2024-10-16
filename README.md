@@ -63,7 +63,7 @@ Check out the `App.tsx` component. It currently contains the main header, a `<Ho
 </details>
 <br />
 
-- [ ] Complete the `<Nav>` component so that it contains a list of continent names (like in the image) based on the information from `data/continents.ts`. Add a list item for Home, too
+- [x] Complete the `<Nav>` component so that it contains a list of continent names (like in the image) based on the information from `data/continents.ts`. Add a list item for Home, too
   <details style="padding-left: 2em">
     <summary>Tip</summary>
 

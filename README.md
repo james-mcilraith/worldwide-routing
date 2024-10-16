@@ -74,8 +74,8 @@ Check out the `App.tsx` component. It currently contains the main header, a `<Ho
 
 ### 3. Adding continents
 
-- [ ] In `App.tsx` replace `<Home />` with `<Outlet />` from `'react-router-dom'` to give nested routes a place to render their elements
-- [ ] Add an "index" route that points to `<Home />`, this route and the others will be "nested" inside the `/` route.
+- [x] In `App.tsx` replace `<Home />` with `<Outlet />` from `'react-router-dom'` to give nested routes a place to render their elements
+- [x] Add an "index" route that points to `<Home />`, this route and the others will be "nested" inside the `/` route.
 
   <details>
     <summary>Tip</summary>

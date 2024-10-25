@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { data } from '../../data/continents'
+import data from '../../data/continents'
 
 const Nav: React.FunctionComponent = () => {
   const continentNames = Object.keys(data)
@@ -10,7 +10,7 @@ const Nav: React.FunctionComponent = () => {
       <h2>Navigation</h2>
       <ul>
         <li>
-          <Link to="/">Home</Link> {/* Link to Home */}
+          <Link to="/">Home</Link>
         </li>
         {continentNames.map((name) => (
           <NavItem key={name} name={name} />

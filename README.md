@@ -6,7 +6,7 @@ This exercise asks you to build an experience to navigate continents and their c
 
 ### 0. Cloning and installation
 
-- [ ] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
+- [x] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
   <details style="padding-left: 2em">
     <summary>Tip</summary>
 
@@ -88,14 +88,14 @@ Check out the `App.tsx` component. It currently contains the main header, a `<Ho
 
   </details>
 
-- [ ] Create an empty component called `Continent`
-- [ ] Add a route for `continents/:name` to our `router.tsx`. We will use it to show the selected continent and its respective image from `data/continents.ts` file
-- [ ] Add a `useParams()` to the `Continent` component (imported from `react-router-dom`) to determine which continent to show
-- [ ] In the `<Continent>` component, also show a list of countries that the given continent contains
+- [x] Create an empty component called `Continent`
+- [x] Add a route for `continents/:name` to our `router.tsx`. We will use it to show the selected continent and its respective image from `data/continents.ts` file
+- [x] Add a `useParams()` to the `Continent` component (imported from `react-router-dom`) to determine which continent to show
+- [x] In the `<Continent>` component, also show a list of countries that the given continent contains
 
 ### 4. Linking it up
 
-- [ ] In the `<Nav>` component, use the `<Link>` component from `react-router-dom` to create links for the user to navigate to continents
+- [x] In the `<Nav>` component, use the `<Link>` component from `react-router-dom` to create links for the user to navigate to continents
 
 <details>
   <summary>Image of continent page after completing this section</summary>
@@ -113,21 +113,21 @@ Check out the `App.tsx` component. It currently contains the main header, a `<Ho
 
 Now, we'll create a component for an individual country. This is the first time we'll need to use `data/countries.ts`.
 
-- [ ] Create a route for this page. It should look something like: `continent/:name/:code`
+- [x] Create a route for this page. It should look something like: `continent/:name/:code`
 <details style="padding-left: 2em">
   <summary>Tip</summary>
   
   We're using the continent name and country code for this route to help us later. The url path for the above suggestion will be entered into the browser as `/continent/Oceania/NZ`.
 </details>
 
-- [ ] This route should render a `<Country>` component that shows all the information from `data/countries` for that specific country
+- [x] This route should render a `<Country>` component that shows all the information from `data/countries` for that specific country
 <details style="padding-left: 2em">
   <summary>Tip</summary>
   
   The flag emoji icons don't work in all browsers (e.g. in Windows they seem to work in Firefox but not Chrome). If you see `NZ` instead of the NZ flag, try a different browser.
 </details>
 
-- [ ] Go back to the `<Continent>` component and enable each country in the list to link to the page we've just created (remember that `<Link>` component)
+- [x] Go back to the `<Continent>` component and enable each country in the list to link to the page we've just created (remember that `<Link>` component)
 
 <details>
   <summary>Images of worldwide-routing after completing this section</summary>
@@ -142,7 +142,7 @@ Now, we'll create a component for an individual country. This is the first time 
 
 Currently each country just shows a string of its neighbours' country codes.
 
-- [ ] Create a list that will show each neighbour's **name** instead and be a link to that country's page so we can visit the pages of neighbours easily
+- [x] Create a list that will show each neighbour's **name** instead and be a link to that country's page so we can visit the pages of neighbours easily
   <details style="padding-left: 2em">
     <summary>Tips</summary>
 

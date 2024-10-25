@@ -10,7 +10,7 @@ interface Continent {
 
 export type ContinentData = Record<string, Continent>
 
-const data: ContinentData = {
+export const data: ContinentData = {
   Africa: {
     image: 'South-Africa.jpg',
     countries: [

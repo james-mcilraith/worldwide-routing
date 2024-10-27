@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import Nav from './Nav.tsx'
 
+// Added outlet component used to display nested routes
 function App() {
   return (
     <>

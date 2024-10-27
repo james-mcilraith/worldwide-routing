@@ -1,14 +1,15 @@
+// Importa various router elements
 import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
 } from 'react-router-dom'
-
 import App from './components/App.tsx'
 import Home from './components/Home.tsx'
 import ContinentID from './components/Continent.tsx'
 import CountryID from './components/Country.tsx'
 
+// Router configuration and nested routes
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
@@ -22,4 +23,5 @@ const router = createBrowserRouter(
   ),
 )
 
+// Exports the router makingit avaliable for other files
 export default router

@@ -1,3 +1,4 @@
+// Defines TypeScript interface named Country, which acts as a blueprint for country objects
 interface Country {
   code: string
   name: string
@@ -10,6 +11,8 @@ interface Country {
   flag: string
 }
 
+// Defines an array named countries that holds objects of type Country
+//  Each object in the array represents a country, initialised with the properties defined in the Country interface
 const countries: Country[] = [
   {
     code: 'AD',
